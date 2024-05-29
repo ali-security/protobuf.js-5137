@@ -1,0 +1,16 @@
+meta:
+  schema-version: 0.1.0
+  created-on: "2024-05-29T08:54:51Z"
+  cli-version: 0.2.0
+projects:
+  ali-security-protobuf.js-5137_package-lock.json:
+    targets:
+      - package.json
+    manager:
+      ecosystem: node
+      name: npm
+      version: "5"
+    overrides:
+      glob-parent:
+        3.1.0:
+          use: 3.1.0-sp1
